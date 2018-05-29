@@ -1,0 +1,90 @@
+*{margin:0;padding:0;}
+.stick{position:fixed;top: 0;z-index: 99999;}
+img{width: 960px;height: auto;    vertical-align: middle;}
+.selectnav{display: none;}
+ul li{list-style-type:none;}
+ul li a{text-decoration: none;font-family: sans-serif;padding:5px 10px;} a{text-decoration: none;}
+.container_full{width: 100%;background-color: blanchedalmond;}
+.container{width: 960px;margin: 0 auto;} .header{background: #4e4e91;color: white;}
+.header h2{text-align: center;}
+.header h2 a{text-decoration: none;color: #8a9fa2;font-family: WendyLPStd-Medium;font-size: 81px;text-shadow: 2px 0px 6px black;}
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.header p{word-spacing: 60px;font-family: exo;font-size: 13px;text-align: center;}
+/*-----------undrmnu_srch-----------*/
+.undrmnu_srch{padding-top: 0px;position: relative;/* margin-bottom: 30px; */margin-top: -30px;margin-right: 6px;}
+.undrmnu_srch input{width: 281px;height: 29px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 10px; background:#fff; font:normal 14px Arial, Helvetica, sans-serif; color:#1F5A9D; margin-top:-9px; }
+.undrmnu_srch input[type="submit"] { width:27px; height:27px; cursor:pointer; text-indent:-999999px; border:none;  background:url(pic/srchIcon.png) no-repeat; position:absolute; right:13px; top:6px; }
+/*--------------------*/
+
+
+
+
+
+/*------------------*/
+.nav2src{background: url(pic/walle.jpg)no-repeat ;height: 395px;vertical-align: middle;}
+.nav2{margin-top: 350px;width: 960px;}
+.nav2 ul{min-height: 40px;background-color: #3f51b573;}
+.nav2 ul li{list-style-type: none;float: left;}
+.nav2 ul li a{text-decoration: none;padding: 10px 20px;display: block;color: aliceblue;font-family: lato-light;font-weight: bold;}
+.nav2 ul li:hover{border-top: 2px solid green;}
+.nav2 ul li a:hover{color: white;transition:all 0.6s;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;}
+.bgattchmnt{}
+
+/*---------------*/
+.content_wraper{overflow:hidden;}
+.left_content, .right_content{width: 200px;float: left;background: #315574eb;}
+.left_content h2, .right_content h2{    background: #3ab63a;color: white;font-family: sans-serif;padding: 3px;}
+.left_content ul li, .right_content ul li{padding: 7px 0px;}
+.left_content ul li a, .right_content ul li a{color: floralwhite;}
+.left_content ul li a:hover, .right_content ul li a:hover{color: aqua;transition: 0.5s easy;}
+.middle_content{width: 540px;float: left;background: #876386;color: floralwhite;padding: 10px;height: 175px;} .middle_content h2{    margin-bottom: 5px;
+    border-top: 1px solid #544b543d;
+    /*background: url(pic/logo/share.png) no-repeat;
+    background-size: 26px 24px;
+    background-position: right;
+    margin-right: 179px;*/}
+/*----log in form------*/
+.loginfrm{height: 195px;}
+.loginfrm p, input{    margin-left: 3px;
+    margin-bottom: 3px;}
+.loginfrm input[type="submit"]{margin-top: 5px;
+    background: green;
+    color: floralwhite;
+    border-radius: 2px;
+    width: 61px;
+    border: none;
+    padding: 4px;cursor: pointer;}
+.loginfrm input[type="text"]{height: 55px;overflow: scroll;}
+
+/*----------------------------*/
+
+.footer{background: black;
+min-height: 185px;
+font-family: lato-light, sans-serif;
+padding: 0px 0px 12px 6px;}
+.footer h2{color: white;border-bottom: 1px solid rosybrown;margin-bottom: 9px;padding-bottom: 5px;}
+.footer a{color:#204464;}
+.footer_lft_part{width: 33.33%;
+    float: left;}
+.footer_lft_part a:hover{color:orange;}
+.footer_right_part{    width: 25.33%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 2%;}
+.footer_right_part li{margin: 5px -10px;}
+.footer_right_part a{text-decoration: underline;}
+.footer_right_part a:hover{color: aqua;transition:0.6s easy;}
+.footer_social_share{float: left;
+width: 38.25%;}
+.footer_social_share img:hover{    border: 1px #ffffff00;}
+.footer_social_share ul{}
+.footer_social_share li{padding:4px 5px;float: left;}
+.footer_social_share a{padding: 0px 4px;}
+.footer_social_share img{width: 45px;height: 45px;}
+.lst_social_share_ul{margin-left: 35px;
+    margin-top: 70px;}
+
+.copyright {padding:6px 0px;padding-left: 40px;background:#4d4e91;text-align: center;}

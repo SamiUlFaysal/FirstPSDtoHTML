@@ -1,0 +1,21 @@
+@font-face{
+
+        
+    font-family:"exo";
+    src:url("../font/exo.ttf") format("truetype");
+    
+    
+}
+@font-face{
+    font-family:"Lato-Light";
+    src:url("../font/Lato-Light.ttf") format("truetype");
+}
+@font-face{
+    font-family:"CaviarDreams";
+    src:url("../font/CaviarDreams.ttf") format("truetype");    
+}
+
+@font-face{
+    font-family:"WendyLPStd-Medium";
+    src:url("../font/WendyLPStd-Medium.ttf") format("truetype");    
+}
